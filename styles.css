@@ -56,9 +56,9 @@ body {
     background-color: red;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 450px) {
     .profile {
-        width: 300px;
+        width: 370px;
         padding: 2rem;
     }
 }
