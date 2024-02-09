@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Inter";
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.profile {
+    background-color: hsl(0, 0%, 12%);
+    margin: 50px auto;
+    width: 370px; 
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: Inter;
+}
+
+.profile h3 {
+    color: hsl(75, 94%, 57%);
+}
+
+.profile-head img {
+    border-radius: 50%;
+    width: 130px;
+    height: 150px;
+}
+
+.profile-links {
+    padding: 10px;
+}
+
+.link {
+    background-color: hsl(0, 0%, 20%);
+    padding: 20px 0;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+.profile-links p {
+    margin-bottom: 2.5rem;
+}
+
+.profile-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: red;
+}
+
+@media (max-width: 430px) {
+    .profile {
+        width: 300px;
+        padding: 2rem;
+    }
+}
